@@ -1,0 +1,22 @@
+Definition:
+Le modèle d'annotation du W3C est un cadre pour la création et la gestion d'annotations sur le web. Il fournit un moyen standard de décrire et de partager des annotations entre différentes plates-formes et applications.
+
+Le modèle d'annotation du W3C se compose de trois éléments principaux :
+
+Le corps de l'annotation : il s'agit du contenu de l'annotation, qui peut inclure du texte, des images et d'autres médias. Le corps de l'annotation peut également inclure des métadonnées supplémentaires, telles que le créateur de l'annotation et la date de sa création.
+
+Cible de l'annotation : Il s'agit de la partie spécifique d'une page web ou d'une ressource à laquelle l'annotation est associée. Il peut s'agir d'une section de texte, d'une image ou de tout autre élément de la page.
+
+Conteneur d'annotation : Il s'agit de la page web ou de la ressource qui contient l'annotation. Le conteneur fournit un contexte à l'annotation et lui permet d'être partagée et consultée par d'autres.
+
+=====GuidLines===
+
+Comment annoter le texte "Le chat s'est assis sur le tapis" en utilisant le modèle d'annotation du W3C.
+Mettez en évidence le mot "chat" dans le texte.
+
+=====Exemple===
+
+Cliquez sur un bouton ou une icône qui vous permet de créer une nouvelle annotation.
+Dans le formulaire d'annotation, ajoutez le corps d'annotation suivant : Il s'agit d'un animal de type "félin".
+Spécifiez la cible de l'annotation, qui est la partie spécifique du texte à laquelle l'annotation est associée. Dans ce cas, la cible serait le mot "chat".
+Enregistrez votre annotation dans un conteneur d'annotation partagé, qui peut être un serveur d'annotation en ligne ou une plateforme de médias sociaux.

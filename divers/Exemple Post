@@ -1,0 +1,13 @@
+$.ajax({
+      "async": true,
+      "crossDomain": true,
+      url:"http://10.10.1.17/insertannotation",
+      type:"post",
+      dataType:'json', 
+      data: { 
+      input:valueOfInput,
+      
+     },
+  }).done(function (res) {
+    
+  }) 

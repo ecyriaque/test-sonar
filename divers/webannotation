@@ -1,0 +1,191 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "http://example.org/anno3",
+  "type": "Annotation",
+  "body": {
+    "id": "http://example.org/video1",
+    "type": "Video"
+  },
+  "target": {
+    "id": "http://example.org/website1",
+    "type": "Text"
+  }
+}
+
+https://www.w3.org/TR/annotation-model/#classes 
+
+INSERT DATA {
+  MMRO:annotation6 rdf:type MMRO:Annotation .
+  MMRO:annotation6 MMRO:annotationContent 'Text test' .
+  MMRO:annotation6 MMRO:annotationDateCreation '16/05/2023' .
+  MMRO:annotation6 MMRO:annotationDescription 'Text desc' .
+  MMRO:annotation6 MMRO:annotedBy 'Text desc' .
+  MMRO:annotation6 MMRO:annotationCreatedBy 'Text desc' .
+  
+}
+
+objet à renvoyé : UserInstance : JhonDoe
+
+
+ l'objet à envoyer :
+ data :{ 
+  annotationIntance : annotationIntance 
+  annotationContent:annotationContent
+  annotationDateCreation:annotationDateCreation
+  annotationDescription:annotationDescription
+  annotationCreatedBy:annotationCreatedBy}
+
+
+dataImage :{ 
+ 
+   User
+   imageIntance
+   imageUrl
+   annotationCreatedBy
+   multimediaRessourceSize 
+   ZoneAnnotationHeight
+   ZoneAnnotationWidth
+   ZoneAnnotationTopMargin
+   ZoneAnnotationLeftMargin
+    
+   }
+
+/*
+  Object { 
+     annotationIntance : annotationIntance 
+    annotationContent:annotationContent
+     annotationDateCreation:annotationDateCreation
+     annotationDescription:annotationDescription
+     annotationCreatedBy:annotationCreatedBy
+    UserInstance: "JhonDoe", 
+    imageIntance: "annotation4681", 
+    imageUrl: "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg", 
+    annotationCreatedBy: "JhonDoe", 
+    multimediaRessourceSize: 64800, 
+    ZoneAnnotationHeight: 19, 
+    ZoneAnnotationWidth: 17, 
+    ZoneAnnotationTopMargin: 64, 
+    ZoneAnnotationLeftMargin: 52 
+  }
+*/
+
+//Réponse getlistannotation : 
+
+[
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation5902" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "13" ,
+    "annotationof" : null ,
+    "annotationContent" : "Arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "12"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation6801" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Annotation" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "10" ,
+    "annotationof" : null ,
+    "annotationContent" : "arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "8"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation6801" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "10" ,
+    "annotationof" : null ,
+    "annotationContent" : "arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "8"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation8485" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "26" ,
+    "annotationof" : null ,
+    "annotationContent" : "Ballon" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "15"
+  }
+]
+
+réponse getlistannotation : 
+
+
+[
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation5902" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "13" ,
+    "annotationof" : null ,
+    "annotationContent" : "Arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "12"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation6801" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Annotation" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "10" ,
+    "annotationof" : null ,
+    "annotationContent" : "arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "8"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation6801" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "10" ,
+    "annotationof" : null ,
+    "annotationContent" : "arbre" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "8"
+  } ,
+  { 
+    "annonation" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#annotation8485" ,
+    "type" : "http://linc.iut.univ-paris8.fr/learningCafe/MMRO.owl#Image" ,
+    "multimediaResourceURL" : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg" ,
+    "annotationCreatedBy" : null ,
+    "User" : null ,
+    "autoUploadedBy" : null ,
+    "ZoneAnnotationHeight" : "26" ,
+    "annotationof" : null ,
+    "annotationContent" : "Ballon" ,
+    "annotationDateCreation" : "26/05/2023" ,
+    "ZoneAnnotationWidth" : "15"
+  }
+]
+
+commentaireInstance 
+annotationInstance : 
+multimediaResourceInstance
+UserInstance : 
+

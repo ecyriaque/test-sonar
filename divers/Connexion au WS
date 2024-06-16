@@ -1,0 +1,6 @@
+Ajout du service Web Ajouter une annotation d'un texte : http://192.168.40.204:3002/insertannotation
+Ajout du service Web Ajouter une annotation d'une image :http://10.10.1.46:3002/insertannotationforimage
+Ajout du service Web afficher une annotation creée par un utilisateur:http://10.10.2.140:3002/getlistannotation
+Ajout du service Web Ajouter un commentaire : http://10.10.2.140:3002/comment
+
+
